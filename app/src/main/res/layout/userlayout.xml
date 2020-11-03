@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="431dp"
+        android:layout_height="683dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/whitebg" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="416dp"
+        android:layout_height="218dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="525dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="@drawable/design" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="348dp"
+        android:layout_height="501dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginBottom="174dp"
+        android:background="#00C0BEBC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.417">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00C0BEBC"
+            app:cardCornerRadius="14dp"
+            app:cardElevation="14dp"
+            app:cardMaxElevation="14dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp">
+
+                        <ImageButton
+                            android:id="@+id/imageButton12"
+                            android:layout_width="36dp"
+                            android:layout_height="match_parent"
+                            android:background="#00FFFFFF"
+                            app:srcCompat="@drawable/setting2" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="0dp"
+                            android:background="#00FFFFFF"
+                            app:srcCompat="@drawable/edit" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/nameview"
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:text="Rony"
+                        android:textAlignment="center"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/parentsPhoneNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:text="phone number"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/phoneno"
+                        android:layout_width="match_parent"
+                        android:layout_height="57dp"
+                        android:text="6545434345"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/genderview"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:text="email"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/studentParentsRelation"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:text="abctr@gmai.com"
+                        android:textSize="18sp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton14"
+                        android:layout_width="match_parent"
+                        android:layout_height="74dp"
+                        android:background="#009F9191"
+                        app:srcCompat="@drawable/applypremium" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="51dp">
+
+                        <ImageButton
+                            android:id="@+id/imageButton15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="146dp"
+                            android:layout_marginBottom="0dp"
+                            android:background="#00FFFFFF"
+                            app:srcCompat="@drawable/backbutton" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="287dp"
+            android:layout_height="144dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp">
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="303dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Profile"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-26dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

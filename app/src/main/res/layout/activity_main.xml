@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDFD"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        app:srcCompat="@drawable/design" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="167dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/rectangle" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="155dp"
+        android:layout_height="164dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="125dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="#EEEEEE"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="#8BC34A"
+        app:civ_shadow_radius="10" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="269dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="160dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:text="user name"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="Email"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:text="Phone number"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="41dp"
+        android:text="Profile"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="21dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="208dp"
+        app:srcCompat="@drawable/setting" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="24dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="193dp"
+        app:srcCompat="@drawable/edit" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="79dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="168dp"
+        android:layout_marginBottom="25dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/backbutton" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginBottom="96dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/applypremium" />
+
+
+</RelativeLayout>
